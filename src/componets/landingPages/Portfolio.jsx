@@ -1,14 +1,12 @@
 import React from "react";
-import { appPortfolioHomepage, webPortfolioHomepage } from "../../constant";
+import { appPortfolio, webPortfolio } from "../../constant";
 import { useKeenSlider } from "keen-slider/react";
 
 const animation = { duration: 60000, easing: (t) => t };
 
 const Portfolio = ({ page }) => {
   const isWebDevelopment = Boolean(page === "web-development");
-  let portfolio = isWebDevelopment
-    ? webPortfolioHomepage
-    : appPortfolioHomepage;
+  let portfolio = isWebDevelopment ? webPortfolio : appPortfolio;
 
   const [sliderRef] = useKeenSlider({
     loop: true,
@@ -94,7 +92,7 @@ const Portfolio = ({ page }) => {
                 {/* </div> */}
                 <div className="px-3 mt-3 pb-5 max-h-[96px]">
                   <h4 className="font-semibold text-xl">{obj.title}</h4>
-                  <p className="desc">{obj.description}</p>
+                  {/* <p className="desc">{obj.description}</p> */}
                 </div>
               </div>
             ))}

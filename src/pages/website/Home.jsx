@@ -106,7 +106,7 @@ const Home = () => {
         // data-aos-offset={-400}
         // data-aos-anchor-placement="top-bottom"
         // data-aos-anchor="selector"
-        className="py-[3rem] bg-[#333333] text-white"
+        className="py-[3rem] bg-[#d7d7d7] text-white"
       >
         <div
           data-aos-offset={-400}
@@ -120,7 +120,7 @@ const Home = () => {
           <h1 className="heading-2 bg-gradient-to-r from-[#7186FF] max-w-[50rem] mx-auto to-primary bg-clip-text text-transparent">
             Dependable AI-Powered IT Support Tailored for Your Business{" "}
           </h1>
-          <p className="desc max-w-[50rem] mx-auto">
+          <p className="desc max-w-[50rem] mx-auto !text-black">
             At [you company name], we understand that your website is more than
             just an online presence—it's the cornerstone of your brand, a
             powerful business tool, and often the first point of interaction

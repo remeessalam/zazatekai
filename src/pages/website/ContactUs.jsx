@@ -62,7 +62,7 @@ const ContactUs = () => {
       <div className="wrapper py-[5rem] grid lg:grid-cols-[45%_auto] gap-7">
         <div
           data-aos="fade-right"
-          className="bg-gradient-to-r flex flex-col gap-2 text-white from-primarytextcolor to-primarytextcolor p-4 rounded-xl"
+          className="bg-gray-300 flex flex-col gap-2 text-black  p-4 rounded-xl"
         >
           <div className="gradient-rounded-text-box">Contact Us</div>
           <h2 className="heading-2 mt-5">Get in Touch</h2>
@@ -109,8 +109,8 @@ const ContactUs = () => {
           data-aos="fade-left"
           className="h-full flex flex-col justify-between gap-7"
         >
-          <div className="p-[1px] text-white h-full bg-gradient-to-r from-secondary to-primary rounded-lg">
-            <div className="rounded-lg h-full bg-primarytextcolor p-4">
+          <div className="p-[1px] text-black h-full  rounded-lg">
+            <div className="rounded-lg h-full bg-gray-300 p-4">
               <h3 className="text-lg">Have Any Question?</h3>
               <form
                 className="flex flex-col gap-4 mt-5"
@@ -205,7 +205,7 @@ const ContactUs = () => {
 
                 <button
                   type="submit"
-                  className="text-white hover:text-white cursor-pointer font-light tracking-wide  border bg-primary/60 border-primary hover:bg-primary text-sm  hover:-translate-y-1 shadow-2xl shadow-transparent rounded-[.3rem] px-4 py-4 min-w-[7rem] flex justify-center text-center transition-all duration-300"
+                  className="text-white hover:text-white cursor-pointer font-light tracking-wide  border bg-primary border-primary hover:bg-primary text-sm  hover:-translate-y-1 shadow-2xl shadow-transparent rounded-[.3rem] px-4 py-4 min-w-[7rem] flex justify-center text-center transition-all duration-300"
                 >
                   {spinner ? "Sending..." : "Send Message"}
                 </button>

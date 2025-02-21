@@ -130,11 +130,11 @@ const OurServices = ({ length }) => {
                 key={service.id}
                 className=" rounded-lg p-[1px]  cursor-pointer h-full "
               >
-                <div className="group hover:scale-105 h-full   rounded-lg bg-backgro-gradient p-[1px] transition-all  duration-500">
-                  <div className="rounded-lg bg-white min-h-[31rem] sm:min-h-[23.25rem] hover:bg-custom-gradient p-5 flex flex-col justify-between items-start text-start h-full gap-4">
+                <div className="group hover:scale-105 h-full   rounded-lg bg-gradient-to-r from-red-300 to-green-300 p-[1px] transition-all  duration-500">
+                  <div className="rounded-lg bg-white min-h-[31rem] sm:min-h-[23.25rem] hover:bg-gradient-to-r from-red-50 to-green-50 p-5 flex flex-col justify-between items-start text-start h-full gap-4">
                     <div className="flex flex-col gap-3">
                       <div className="flex items-center gap-4 mb-4">
-                        <div className="flex items-center justify-center w-12 h-12 rounded-full bg-orange-100 text-orange-600 group-hover:bg-orange-600 group-hover:text-white  transition-colors duration-300">
+                        <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/20 text-red-700  group-hover:text-green-700  transition-colors duration-300">
                           {/* <BiBrain className="w-6 h-6" /> */}
                           {service.img}
                         </div>

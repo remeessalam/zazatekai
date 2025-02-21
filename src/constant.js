@@ -38,28 +38,49 @@ import aboutfive from "./assets/images/aboutfive.jpg";
 import aboutusintroone from "./assets/images/aboutusintroone.jpg";
 import aboutusintrotwo from "./assets/images/aboutusintrotwo.jpg";
 import allbgimage from "./assets/images/allbgimage.jpg";
+// porfolio image
+// Import all images at the top (Web Development)
+import FiveGHomesImg from "./assets/web-development-portfolio/5ghomes.png";
+import BayutImg from "./assets/web-development-portfolio/bayut.png";
+import ColdCreekcapImg from "./assets/web-development-portfolio/cold creekcap.png";
+import EmergencyMusicImg from "./assets/web-development-portfolio/emergency music .png";
+import FlatiornImg from "./assets/web-development-portfolio/flatiorn.png";
+import MavenImg from "./assets/web-development-portfolio/maven.png";
+import MenissaCateringsImg from "./assets/web-development-portfolio/menissa caterings.png";
+import MethodistImg from "./assets/web-development-portfolio/methodist.png";
+import ThinkRealityImg from "./assets/web-development-portfolio/think reality.png";
+
+// Import all images at the top (App Development)
+import DubaiTravelGuideImg from "./assets/app-development-portfolio/dubai travel guide.png";
+import EloraHairPalourImg from "./assets/app-development-portfolio/elora hair palour.png";
+import EvansFrancisImg from "./assets/app-development-portfolio/evans francis.png";
+import HouseOfDeliverenceImg from "./assets/app-development-portfolio/house of deliverence.png";
+import MybitsShopImg from "./assets/app-development-portfolio/mybitsshop.png";
+import NamazImg from "./assets/app-development-portfolio/namaz.png";
+import PoteaImg from "./assets/app-development-portfolio/potea.png";
+import RentopBikeAndCarImg from "./assets/app-development-portfolio/rentop bike and car.png";
 import { lazy } from "react";
-import { BiBrain, BiBulb, BiRocket } from "react-icons/bi";
-import { GoFileMedia, GoGraph } from "react-icons/go";
-import { SlBadge } from "react-icons/sl";
+import {
+  FaUsers,
+  FaCogs,
+  FaTrophy,
+  FaHandsHelping,
+  FaHandshake,
+  FaBullseye,
+  FaEye,
+} from "react-icons/fa";
+import { GoFileMedia } from "react-icons/go";
 import {
   MdOutlineDashboardCustomize,
   MdOutlineDeveloperMode,
-  MdPermMedia,
 } from "react-icons/md";
-import {
-  GiArtificialIntelligence,
-  GiRobotLeg,
-  GiVendingMachine,
-} from "react-icons/gi";
-import { HiChatBubbleBottomCenterText } from "react-icons/hi2";
+import { GiArtificialIntelligence } from "react-icons/gi";
 import { BsFillClipboard2DataFill } from "react-icons/bs";
-import { FaAppStoreIos, FaGamepad } from "react-icons/fa";
+import { FaAppStoreIos } from "react-icons/fa";
 import { SiFlutter, SiHiveBlockchain } from "react-icons/si";
 import { IoLogoAndroid, IoMdCloudDone } from "react-icons/io";
 import { CgWebsite } from "react-icons/cg";
 import { TfiLayoutMediaRightAlt } from "react-icons/tfi";
-import { RiCustomSize } from "react-icons/ri";
 import { TbDeviceMobileCode } from "react-icons/tb";
 import { FaPaintBrush } from "react-icons/fa";
 
@@ -335,29 +356,42 @@ applications, we are here to ensure a smooth and successful transition.`,
 // about us page why choose content
 export const whyChooseUsContent = [
   {
-    img: <BiBrain className="w-6 h-6" />,
-    title: "Transforming Vision into Reality",
-    desc: "We collaborate closely to understand your vision and turn it into innovative digital solutions that exceed expectations, tailored specifically to your business needs.",
+    img: <FaUsers className="w-6 h-6" />,
+    title: "Experienced Team",
+    desc: "Our team consists of professionals with years of experience across various industries. We bring the right skills to every project to ensure your solution is both innovative and effective.",
   },
   {
-    img: <BiRocket className="w-6 h-6" />,
-    title: "Empowering Businesses with Technology",
-    desc: "Our expertise in cutting-edge technologies ensures that every solution we deliver helps your business thrive in today’s competitive landscape.",
+    img: <FaCogs className="w-6 h-6" />,
+    title: "Customized Solutions",
+    desc: "We understand that every business is unique. That’s why we develop tailored solutions designed to meet your specific needs and objectives.",
   },
   {
-    img: <BiBulb className="w-6 h-6" />,
-    title: "Driving Efficiency with Innovation",
-    desc: "From automating processes to building intelligent solutions, we bring innovation to the forefront, enabling your business to operate smarter and more efficiently.",
+    img: <FaTrophy className="w-6 h-6" />,
+    title: "Proven Success",
+    desc: "We’ve worked with clients across various industries, delivering successful projects that drive real business results. Our portfolio showcases our ability to execute on time, within budget, and to the highest standards.",
   },
   {
-    img: <GoGraph className="w-6 h-6" />,
-    title: "Data-Driven Decision Making",
-    desc: "We provide insightful analytics and intelligence to help you make informed decisions, uncover opportunities, and stay ahead in your industry.",
+    img: <FaHandsHelping className="w-6 h-6" />,
+    title: "Ongoing Support",
+    desc: "We’re with you every step of the way – from initial concept to post-launch support. Our team ensures that your solution continues to perform optimally long after it’s deployed.",
   },
   {
-    img: <SlBadge className="w-6 h-6" />,
-    title: "Commitment to Excellence",
-    desc: "We are dedicated to delivering exceptional service and long-term partnerships, supporting your journey from idea to execution and beyond.",
+    img: <FaHandshake className="w-6 h-6" />,
+    title: "Long-Term Partnership",
+    desc: "We believe in building lasting relationships. Our focus is on creating ongoing value for our clients, helping them grow and adapt as their needs evolve.",
+  },
+];
+
+export const missionVisionContent = [
+  {
+    img: <FaBullseye className="w-6 h-6" />,
+    title: "Our Mission",
+    desc: "Our mission is to provide businesses with technology-driven solutions that empower them to reach their full potential. We take a personalized approach to each project, ensuring that we understand your specific challenges and objectives. From startups to established enterprises, we tailor our services to help you achieve your goals, whether that’s increasing efficiency, improving customer experience, or gaining a competitive edge. We’re not just focused on delivering technology – we focus on delivering results. By combining industry expertise with a commitment to excellence, we ensure that the solutions we offer provide real value and support your long-term growth.",
+  },
+  {
+    img: <FaEye className="w-6 h-6" />,
+    title: "Our Vision",
+    desc: "At [Your Company Name], we envision a world where businesses leverage technology to their advantage, staying ahead of the curve in an ever-evolving digital landscape. We aspire to be the go-to partner for companies looking to embrace innovation and transform their operations, whether through custom software solutions, AI-powered tools, or cloud-based services. We are committed to delivering lasting results that help businesses grow, adapt, and succeed. By continually exploring new possibilities and pushing the boundaries of technology, we ensure that our clients always have access to the latest and most effective solutions.",
   },
 ];
 
@@ -365,65 +399,65 @@ export const reviews = [
   {
     id: 1,
     profileImg: profileImg2,
-    name: "Mark S.",
-    role: "Founder of UrbanTrends",
-    desc: "“Partnering with [you company name] was a breath of fresh air. They not only brought our mobile app and website ideas to life but also helped us think through user experience details that made a huge impact. They truly understood our vision and delivered a solution that has taken our online presence to the next level.”",
+    name: "Michael D.",
+    role: "CEO at TechSolutions",
+    desc: "“Working with [your company name] has been an absolute game-changer for our business. Their expertise in AI and automation helped streamline our workflows, saving us countless hours every week.”",
   },
   {
     id: 2,
     profileImg: profileImg1,
-    name: "Lisa T.",
-    role: "Operations Manager at HealthPro Analytics",
-    desc: "“The AI solutions from [you company name] have completely transformed our operations. Their team helped us automate data processes, which has freed up our team for higher-level tasks. The insights and predictive analytics they’ve provided have given us a competitive edge we didn’t think was possible.”",
+    name: "Sophia L.",
+    role: "Marketing Director at BrandBoost",
+    desc: "“The digital strategy crafted by [your company name] propelled our brand to new heights. Their insights and execution were top-notch, leading to significant engagement growth.”",
   },
   {
     id: 3,
     profileImg: profileImg2,
-    name: "John P.",
-    role: "Customer Service Lead at QuickResponse",
-    desc: "“The chatbot that [you company name] developed for us has been a game-changer. It’s seamless, efficient, and our customers are happier than ever with the faster response times. We’re saving so much time on routine inquiries, and it’s made a noticeable difference in customer satisfaction.”",
+    name: "David R.",
+    role: "CTO at CloudNet",
+    desc: "“The cloud infrastructure set up by [your company name] has been flawless. Their team ensured a smooth transition and provided excellent ongoing support.”",
   },
   {
     id: 4,
     profileImg: profileImg1,
-    name: "Samantha K.",
-    role: "CEO at Retail Innovations",
-    desc: "“Working with [you company name] on our data analytics strategy was one of our best investments. Their team transformed our raw data into meaningful insights that have guided our recent business decisions. We’ve already seen measurable results, and we’re excited to keep building on this foundation.”",
+    name: "Emily W.",
+    role: "Founder of EcoStyles",
+    desc: "“Their UI/UX design expertise gave our e-commerce store a fresh and modern look. Customers love the new experience, and conversions have improved dramatically.”",
   },
   {
     id: 5,
     profileImg: profileImg2,
-    name: "Alex R.",
-    role: "Product Manager at PlaySphere",
-    desc: "“The gaming app [you company name] created exceeded all our expectations. From design to development, every aspect was handled with incredible attention to detail. Our players are hooked, and we couldn’t have achieved this level of engagement without their expertise!”",
+    name: "James P.",
+    role: "Operations Manager at FinTrust",
+    desc: "“With the blockchain solutions from [your company name], we’ve enhanced the security and transparency of our financial transactions. The implementation was seamless.”",
   },
   {
     id: 6,
     profileImg: profileImg1,
-    name: "Monica B.",
-    role: "CTO at FinSecure",
-    desc: "“We were initially overwhelmed by the complexity of blockchain, but [you company name] made it easy to understand and implement. Their team developed a secure blockchain solution tailored to our needs, and it’s given us and our clients peace of mind in every transaction.”",
+    name: "Olivia H.",
+    role: "COO at HealthSync",
+    desc: "“Their AI-powered analytics platform has transformed the way we manage patient data. The insights we now have access to are truly invaluable.”",
   },
   {
     id: 7,
     profileImg: profileImg2,
-    name: "Daniel L.",
-    role: "Head of Product at InsightIQ",
-    desc: "“Thanks to [you company name], we’ve integrated machine learning into our products, giving us a new level of insight into customer behavior. Their team’s knowledge and hands-on approach made the entire process smooth and rewarding. It’s changed the way we operate.”",
+    name: "Ryan T.",
+    role: "Head of Development at InnovateSoft",
+    desc: "“From concept to execution, [your company name] delivered an exceptional custom software solution that has scaled effortlessly with our growing business.”",
   },
   {
     id: 8,
     profileImg: profileImg1,
-    name: "Claire J.",
-    role: "IT Director at GlobalTech Solutions",
-    desc: "“The cloud migration and management services we received from [you company name] have been invaluable. They took us from a traditional setup to a flexible cloud environment, allowing us to scale easily. It’s been a huge boost for our team’s productivity.”",
+    name: "Emma K.",
+    role: "Product Manager at RetailGenix",
+    desc: "“The e-commerce platform they built for us exceeded expectations. Its performance and user experience are outstanding, driving higher customer satisfaction.”",
   },
   {
     id: 9,
     profileImg: profileImg2,
-    name: "Evan W.",
-    role: "Operations Director at Streamline Logistics",
-    desc: "“Implementing RPA with [you company name] has transformed our day-to-day operations. Tasks that used to be time-consuming are now handled quickly and accurately, giving our team more freedom to focus on strategic initiatives. The impact on efficiency is undeniable.”",
+    name: "William B.",
+    role: "IT Director at SecureNet",
+    desc: "“Cybersecurity was a major concern for us, but [your company name] provided robust security solutions that give us confidence in our infrastructure.”",
   },
 ];
 
@@ -431,181 +465,144 @@ export const reviews = [
 export const webPortfolio = [
   {
     id: 1,
-    img: require("./assets/images/web_projects/1.webp"),
-    title: "FE-Finance",
+    img: FiveGHomesImg,
+    title: "5g Homes",
+    link: "https://5ghighspeedinternet.co",
   },
   {
     id: 2,
-    img: require("./assets/images/web_projects/2.webp"),
-    title: "Ocxee",
+    img: BayutImg,
+    title: "Bayut",
+    link: "https://www.bayut.com",
   },
   {
     id: 3,
-    img: require("./assets/images/web_projects/3.webp"),
-    title: "Leaderbridge",
+    img: ColdCreekcapImg,
+    title: "Cold Creekcap",
+    link: "https://www.coldcreekcap.com",
   },
   {
     id: 4,
-    img: require("./assets/images/web_projects/4.webp"),
-    title: "Gigzio",
+    img: EmergencyMusicImg,
+    title: "Emergency Music",
+    link: "https://www.figma.com/proto/GwlIMQuIuFevhOEp8moALy/emergence-music-distribuBon?page-id=6298%3A7215&type=design&node-id=6298-7776&viewport=407%2C314%2C0.11&t=QCtz7M4USn6gI1CG-1&scaling=min-zoom",
   },
   {
     id: 5,
-    img: require("./assets/images/web_projects/5.webp"),
-    title: "FE Group",
+    img: FlatiornImg,
+    title: "Flatiorn",
+    link: "",
   },
   {
     id: 6,
-    img: require("./assets/images/web_projects/6.webp"),
-    title: "V Talkz",
+    img: MavenImg,
+    title: "Maven",
+    link: "",
+  },
+  {
+    id: 7,
+    img: MenissaCateringsImg,
+    title: "Menissa Caterings",
+    link: "https://messinascatering.com",
+  },
+  {
+    id: 8,
+    img: MethodistImg,
+    title: "Methodist",
+    link: "",
+  },
+  {
+    id: 9,
+    img: ThinkRealityImg,
+    title: "Think Reality",
+    link: "https://thinkrealty.ae",
   },
 ];
 
-export const webPortfolioHomepage = [
-  {
-    id: 1,
-    img: require("./assets/images/web_projects/1.webp"),
-    title: "FE-Finance",
-    description:
-      "A comprehensive finance platform streamlining investments and portfolio management efficiently.",
-  },
-  {
-    id: 2,
-    img: require("./assets/images/web_projects/2.webp"),
-    title: "Ocxee",
-    description:
-      "A global relocation service platform for seamless student mobility and accommodations.",
-  },
-  {
-    id: 3,
-    img: require("./assets/images/web_projects/3.webp"),
-    title: "Leaderbridge",
-    description:
-      "A networking platform connecting leaders and professionals to foster meaningful collaborations.",
-  },
-  {
-    id: 4,
-    img: require("./assets/images/web_projects/4.webp"),
-    title: "Gigzio",
-    description:
-      "An innovative job marketplace connecting freelancers and employers for diverse gig opportunities.",
-  },
-  {
-    id: 5,
-    img: require("./assets/images/web_projects/5.webp"),
-    title: "FE Group",
-    description:
-      "A corporate solution provider enhancing business growth with tailored financial services.",
-  },
-  {
-    id: 6,
-    img: require("./assets/images/web_projects/6.webp"),
-    title: "V Talkz",
-    description:
-      "A dynamic communication platform revolutionizing team collaboration and connectivity.",
-  },
-];
-
-// portfolio images (app development)
 export const appPortfolio = [
   {
     id: 1,
-    img: require("./assets/images/app_projects/1.webp"),
-    title: "PartEx",
+    img: DubaiTravelGuideImg,
+    title: "Dubai Travel Guide",
+    link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
   },
   {
     id: 2,
-    img: require("./assets/images/app_projects/2.webp"),
-    title: "Find A Driver",
+    img: EloraHairPalourImg,
+    title: "Elora Hair Palour",
+    link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
   },
   {
     id: 3,
-    img: require("./assets/images/app_projects/3.webp"),
-    title: "Glowsy",
+    img: EvansFrancisImg,
+    title: "Evans Francis",
+    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
   },
   {
     id: 4,
-    img: require("./assets/images/app_projects/4.webp"),
-    title: "Artisan Express",
+    img: HouseOfDeliverenceImg,
+    title: "House of Deliverence",
+    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
   },
   {
     id: 5,
-    img: require("./assets/images/app_projects/5.webp"),
-    title: "House of Deliverance",
-  },
-];
-
-export const appPortfolioHomepage = [
-  {
-    id: 1,
-    img: require("./assets/images/app_projects/1.webp"),
-    title: "PartEx",
-    description:
-      "An intuitive platform simplifying vehicle part exchanges and purchases.",
+    img: MybitsShopImg,
+    title: "Mybits Shop",
+    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
   },
   {
-    id: 2,
-    img: require("./assets/images/app_projects/2.webp"),
-    title: "Find A Driver",
-    description:
-      "A driver-matching app ensuring efficient and reliable transportation services.",
+    id: 6,
+    img: NamazImg,
+    title: "Namaz",
+    link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
   },
   {
-    id: 3,
-    img: require("./assets/images/app_projects/3.webp"),
-    title: "Glowsy",
-    description:
-      "A beauty and wellness app offering personalized skincare and grooming solutions.",
+    id: 7,
+    img: PoteaImg,
+    title: "Potea",
+    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
   },
   {
-    id: 4,
-    img: require("./assets/images/app_projects/4.webp"),
-    title: "Artisan Express",
-    description:
-      "A platform connecting users with skilled artisans for home services.",
-  },
-  {
-    id: 5,
-    img: require("./assets/images/app_projects/5.webp"),
-    title: "House of Deliverance",
-    description:
-      "A spiritual app offering resources for faith-building and inspiration.",
+    id: 8,
+    img: RentopBikeAndCarImg,
+    title: "Rentop Bike and Car",
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },
 ];
 
 export const aboutUsItems = [
   {
-    title: "Innovation at Heart",
+    title: "Innovation",
     description:
-      "At [you company name], innovation is at the core of everything we do. We continuously embrace emerging technologies and industry trends to craft future-ready solutions that redefine possibilities.",
+      "We continuously explore new technologies, finding creative solutions to help our clients overcome challenges and seize opportunities.",
     image: aboutone,
     gradient: "from-primary/60 to-primary/80",
   },
   {
-    title: "Client-Centric Approach",
+    title: "Customer Focus",
     description:
-      "We adopt a personalized approach, customizing each project to align seamlessly with your specific requirements. We collaborate closely with our clients, fostering long-term partnerships built on trust, transparency, and shared success.",
+      "Our clients are at the heart of everything we do. We prioritize their needs and goals, ensuring that every solution we deliver helps them succeed.",
     image: abouttwo,
     gradient: "from-secondary/60 to-secondary/80",
   },
   {
-    title: "Commitment to Excellence",
+    title: "Excellence",
     description:
-      "Quality and reliability form the foundation of our work. We take pride in crafting world-class digital solutions that are robust, scalable, and secure. Every project undergoes thorough quality assurance.",
+      "Quality is at the core of everything we do. We strive to deliver the best possible results, paying attention to the smallest details.",
     image: aboutthree,
     gradient: "from-primary/60 to-primary/80",
   },
   {
-    title: "Innovation with Purpose",
+    title: "Collaboration",
     description:
-      "We believe that technology is only as valuable as the purpose it serves. Our mission is to harness the power of technology to create meaningful impacts—streamlining operations, elevating customer experiences, and driving business growth.",
+      "We believe in working together. By fostering a collaborative environment, both within our team and with our clients, we ensure the best outcomes.",
     image: aboutfour,
     gradient: "from-secondary/60 to-secondary/80",
   },
   {
-    title: "End to End Solutions",
+    title: "Integrity",
     description:
-      "We provide a comprehensive range of services, ensuring end-to-end support from initial concept to deployment and beyond. Our aim is to be your trusted partner throughout your digital journey.",
+      "We maintain the highest standards of honesty and transparency in all our interactions, building trust with our clients and partners.",
     image: aboutfive,
     gradient: "from-primary/60 to-primary/80",
   },

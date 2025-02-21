@@ -1,5 +1,5 @@
 import React from "react";
-import { appPortfolioHomepage, webPortfolioHomepage } from "../../constant";
+import { appPortfolio, webPortfolio } from "../../constant";
 import { useKeenSlider } from "keen-slider/react";
 const animation = { duration: 60000, easing: (t) => t };
 
@@ -112,7 +112,7 @@ const CommonProject = () => {
           </div>
           <h3 className="heading-2 text-center my-16">Web Projects</h3>
           <div ref={sliderRef} className="keen-slider ">
-            {webPortfolioHomepage.map((obj) => (
+            {webPortfolio.map((obj) => (
               <div
                 key={obj.id}
                 className="keen-slider__slide border-4 border-primary/40 rounded-xl bg-custom-gradient object-cover"
@@ -126,7 +126,7 @@ const CommonProject = () => {
                   <h4 className="font-semibold text-xl text-center">
                     {obj.title}
                   </h4>
-                  <p className="desc text-center">{obj.description}</p>
+                  {/* <p className="desc text-center">{obj.description}</p> */}
                 </div>
               </div>
             ))}
@@ -134,7 +134,7 @@ const CommonProject = () => {
           <h3 className="heading-2 text-center my-16">App Projects</h3>
 
           <div ref={sliderRef2} className="keen-slider">
-            {appPortfolioHomepage.map((obj) => (
+            {appPortfolio.map((obj) => (
               <div
                 key={obj.title}
                 className="keen-slider__slide border-4 border-primary/40 rounded-xl bg-custom-gradient "
@@ -163,7 +163,7 @@ const CommonProject = () => {
                   <h4 className="font-semibold text-xl text-center">
                     {obj.title}
                   </h4>
-                  <p className="desc text-center">{obj.description}</p>
+                  {/* <p className="desc text-center">{obj.description}</p> */}
                 </div>
               </div>
             ))}

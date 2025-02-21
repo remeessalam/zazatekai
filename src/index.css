@@ -63,10 +63,10 @@ body {
     @apply px-4 py-3 rounded-full font-raleway min-w-[10rem] flex justify-center border text-[.9rem] w-fit font-bold;
   }
   .gradient-rounded-text-box {
-    @apply px-4 py-3 rounded-full font-raleway min-w-[10rem] flex justify-center border text-[.9rem] w-fit bg-gradient-to-r from-[#7186FF_30%] to-primary font-bold border-primary bg-clip-text text-transparent;
+    @apply px-4 py-3 rounded-full font-raleway min-w-[10rem] flex justify-center border text-[.9rem] w-fit bg-gradient-to-r from-green-700 to-red-700 font-bold border-primary bg-clip-text text-transparent;
   }
   .link {
-    @apply cursor-pointer hover:text-headertexthoverandactive transition-colors duration-200;
+    @apply cursor-pointer hover:text-primary transition-colors duration-200;
   }
 }
 

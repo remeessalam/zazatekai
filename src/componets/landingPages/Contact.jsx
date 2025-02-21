@@ -54,18 +54,18 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="py-[3rem] text-primarytextcolor bg-backgroundcolor "
+      className="py-[3rem] text-primarytextcolor/30 bg-backgroundcolor "
     >
       <div className="wrapper  rounded-lg ">
         <div className="h-full grid md:grid-cols-2 gap-10 py-10">
           {/* data-aos="fade-right" */}
           <div className="flex flex-col gap-4">
-            <h2 className="heading-2">Get In Touch With Us!</h2>
-            <p className="">
+            <h2 className="heading-2 !text-black">Get In Touch With Us!</h2>
+            <p className="!text-black">
               Get in touch with
-              <span className="font-bold"> [you company name] </span> and let us
-              be the catalyst for your digital transformation. Together, we can
-              create solutions that align with your vision, helping your
+              <span className="font-bold "> [you company name] </span> and let
+              us be the catalyst for your digital transformation. Together, we
+              can create solutions that align with your vision, helping your
               business reach new heights.
             </p>
             <img

@@ -9,6 +9,7 @@ import {
   aboutusintroone,
   aboutusintrotwo,
   aboutUsItems,
+  missionVisionContent,
   whyChooseUsContent,
 } from "../../constant";
 import UnlockEfficiency from "../../componets/common/UnlockEfficiency";
@@ -79,14 +80,22 @@ const AboutUs = () => {
                   data-aos="fade-up"
                   className="text-lg text-start leading-relaxed text-gray-600"
                 >
-                  At [you company name], we specialize in crafting
-                  transformative IT solutions powered by artificial
-                  intelligence. Our expertise lies in addressing unique
-                  challenges and delivering tailored AI-driven services,
-                  ensuring that businesses worldwide thrive in a
-                  technology-first era. With a passionate team of developers,
-                  data scientists, and innovators, we are redefining the future
-                  of IT and unlocking the true potential of AI.
+                  At [Your Company Name], we’re more than just a technology
+                  service provider – we’re your partner in driving digital
+                  transformation. Our team of passionate professionals is
+                  dedicated to helping businesses like yours navigate the
+                  ever-changing digital landscape. With expertise in web
+                  development, mobile app creation, artificial intelligence,
+                  data science, blockchain technology, and more, we deliver
+                  solutions designed to meet your unique needs and drive your
+                  success.
+                  <br />
+                  We pride ourselves on being at the forefront of innovation. By
+                  blending cutting-edge technology with thoughtful design, we
+                  provide solutions that not only solve problems but also create
+                  opportunities for growth. Our goal is simple: to help your
+                  business thrive in a world that’s becoming increasingly
+                  digital.
                 </p>
               </div>
 
@@ -113,6 +122,21 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+        <section className="text-center py-6 wrapper sm:py-16">
+          <h2 className="text-4xl font-bold mb-12">Our Mission & Vision</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            {missionVisionContent.map((item, index) => (
+              <div
+                key={index}
+                className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center"
+              >
+                <div className="text-primary text-4xl mb-4">{item.img}</div>
+                <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+                <p className="text-gray-600">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </section>
         <section className="py-6 sm:py-16 bg-gradient-to-b from-background to-background/80">
@@ -212,11 +236,11 @@ const AboutUs = () => {
                   className="relative group bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100"
                 >
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-orange-100 text-orange-600 group-hover:bg-orange-600 group-hover:text-white transition-colors duration-300">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-orange-100 text-red-600  group-hover:text-green-600 transition-colors duration-300">
                       {feature.img}
                     </div>
                   </div>
-                  <h3 className="text-xl font-semibold mb-3 text-orange-600">
+                  <h3 className="text-xl font-semibold mb-3 text-primary">
                     {feature.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
