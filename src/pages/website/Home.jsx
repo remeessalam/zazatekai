@@ -43,12 +43,9 @@ const Home = () => {
               Future with Innovative Technology Solutions
             </h1>
             <p className="desc">
-              At ZAZATEK AI , we are dedicated to helping businesses thrive in
-              the digital era. Whether you need a powerful website, a
-              cutting-edge mobile app, advanced artificial intelligence systems,
-              or data-driven insights, we have the expertise to make it happen.
-              Our team blends creativity, technical know-how, and industry
-              experience to deliver solutions that make a real difference.
+              At ZAZATEK AI, we empower businesses with cutting-edge websites,
+              mobile apps, AI solutions, and data-driven insights, delivering
+              impactful and innovative results.
             </p>
             <Link to="/contact-us" className="primary-btn mt-2">
               Get Started
