@@ -215,7 +215,7 @@ const WhyChooseUs = () => {
             ref={ref}
             data-aos-offset={-200}
             data-aos="fade-up"
-            className="w-full text-white grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10 lg:gap-5 rounded-3xl bg-gradient-to-r from-secondary to-primary p-[2rem]"
+            className="w-full text-white grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10 lg:gap-5 rounded-3xl bg-gradient-to-r from-green-500 to-red-500 p-[2rem]"
           >
             <div className="w-full flex flex-col items-center justify-center">
               <div className="flex flex-col gap-3 relative w-fit">

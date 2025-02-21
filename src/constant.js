@@ -127,11 +127,14 @@ export {
 
 // company details
 export const companyDetails = {
-  phone: "+91-9000000",
-  whatsapp: "+91-900000",
-  whatsappbox: "90000000",
+  phone: "+91-9884215262",
+  phone2: "+91-9677871121",
+
+  whatsapplink:
+    "https://api.whatsapp.com/send/?phone=9884215262&text&type=phone_number&app_absent=0",
   email: "abc@xya.com",
-  address: "[your company address]",
+  address:
+    "No. 82 A/ 8, Poombukar Nagar, Elango Street, Wimco Nagar, Chennai 600 057",
 };
 
 // website routes

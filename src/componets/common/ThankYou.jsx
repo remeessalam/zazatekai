@@ -63,6 +63,15 @@ const Thankyou = () => {
                     {companyDetails.phone}
                   </Link>
                 </div>
+                <div className="flex flex-col">
+                  <h6 className="text-[.9rem] mb-1">Phone</h6>
+                  <Link
+                    to={`tel:${companyDetails.phone2}`}
+                    className="text-white/70 desc text-sm"
+                  >
+                    {companyDetails.phone2}
+                  </Link>
+                </div>
                 <div className="flex flex-col mt-2">
                   <h6 className="text-[.9rem] mb-1">Office Address</h6>
                   <p className="text-white/70 desc text-sm max-w-[15rem]">

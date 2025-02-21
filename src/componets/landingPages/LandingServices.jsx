@@ -34,11 +34,11 @@ const LandingServices = ({ page }) => {
               key={item.id}
               className="shadow-2xl transition-all  bg-primary/15 hover:-translate-y-1 hover:bg-primary/25 duration-300 rounded-lg"
             >
-              <div className="   group rounded-lg bg-backgro-gradient  hover:scale-105 shadow-2xl hover:shadow-primary/10 p-[1px] transition-all h-full duration-500 overflow-hidden">
-                <div className="rounded-lg bg-white hover:bg-custom-gradient p-5 flex flex-col justify-between items-start text-start h-full gap-4">
+              <div className="   group rounded-lg bg-gradient-to-r from-red-600 to-green-600  hover:scale-105 shadow-2xl hover:shadow-primary/10 p-[1px] transition-all h-full duration-500 overflow-hidden">
+                <div className="rounded-lg bg-white hover:bg-gradient-to-r from-red-50 to-green-50 p-5 flex flex-col justify-between items-start text-start h-full gap-4">
                   <div className="flex flex-col gap-3">
                     <div className="flex items-center gap-4 mb-4">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-full bg-orange-100 text-orange-600 group-hover:bg-orange-600 group-hover:text-white transition-colors duration-300">
+                      <div className="flex items-center justify-center w-12 h-12 rounded-full bg-orange-100 text-red-600  group-hover:text-green-600 transition-colors duration-300">
                         {/* <BiBrain className="w-6 h-6" /> */}
                         {item.img}
                       </div>

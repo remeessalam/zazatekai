@@ -73,6 +73,15 @@ const LandingFooter = () => {
                 </Link>
               </div>
               <div className="flex flex-col">
+                <h6 className="text-[.9rem] mb-1">Phone</h6>
+                <Link
+                  to={`tel:${companyDetails.phone2}`}
+                  className="text-white desc text-sm"
+                >
+                  {companyDetails.phone2}
+                </Link>
+              </div>
+              <div className="flex flex-col">
                 <h6 className="text-[.9rem] mb-1">Email</h6>
                 <Link
                   // to={`tel:${companyDetails.email}`}
