@@ -3,17 +3,18 @@ import { allServices, blockchaindevelopment } from "../../../constant";
 import Testimonials from "../../common/Testimonials";
 
 const BlockchainDevelopment = () => {
-  const details = allServices[5];
-  const splitIntoParagraphs = (text, numParagraphs = 3) => {
-    const sentences = text.split(". ").map((sentence) => sentence + ".");
-    const chunkSize = Math.ceil(sentences.length / numParagraphs);
-    const paragraphs = [];
-
-    for (let i = 0; i < sentences.length; i += chunkSize) {
-      paragraphs.push(sentences.slice(i, i + chunkSize).join(" "));
-    }
-
-    return paragraphs;
+  const details = allServices[4];
+  const splitIntoPoints = (text) => {
+    return text
+      .split("\n• ")
+      .slice(1)
+      .map((point) => {
+        const [heading, ...descParts] = point.split(": ");
+        return {
+          heading: heading.trim(),
+          desc: descParts.join(": ").trim(),
+        };
+      });
   };
 
   return (
@@ -30,18 +31,25 @@ const BlockchainDevelopment = () => {
         <h2 data-aos="fade-up" className="text-3xl font-semibold">
           {details.title}
         </h2>
+        <p>{details.desc}</p>
 
         {/* Service Description */}
-        <p data-aos="fade-up" className="description">
-          {splitIntoParagraphs(details.detailContent).map(
-            (paragraph, index) => (
-              <p key={index} className="py-2">
-                {paragraph}
-              </p>
-            )
-          )}
-          {/* {details.detailContent} */}
-        </p>
+        <div data-aos="fade-up" className="pt-4">
+          <h3 className="text-xl font-semibold">
+            Our AI Development Services Include:
+          </h3>
+          <ul className="w-full flex flex-col gap-3 mt-5">
+            {splitIntoPoints(details.detailContent).map((item, index) => (
+              <li
+                key={index}
+                className="text-base rounded-lg bg-primary hover:bg-opacity-30 p-4 hover:scale-105 transition-all duration-700"
+              >
+                <h3 className="text-lg font-semibold">{item.heading}</h3>
+                <p>{item.desc}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
 
         {/* Points List */}
         {/* <div data-aos="fade-up" className="pt-4">

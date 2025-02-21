@@ -27,7 +27,7 @@ const Home = () => {
           playing
           className="absolute"
         />
-        <div className="bg-gradient-to-r to-black/50 from-transparent absolute w-full h-full"></div>
+        <div className="bg-black/50 from-transparent absolute w-full h-full"></div>
         <div className="pt-[3rem] wrapper flex items-center h-full">
           <div
             data-aos="fade-up"
@@ -43,11 +43,12 @@ const Home = () => {
               Shaping the Future with Innovative Technology Solutions
             </h1>
             <p className="desc">
-              At [you company name], we craft cutting-edge AI-driven IT
-              solutions tailored to meet the evolving needs of businesses,
-              ensuring enhanced efficiency, sustainable growth, and continuous
-              innovation through intelligent automation and data-driven
-              insights.
+              At [Your Company Name], we are dedicated to helping businesses
+              thrive in the digital era. Whether you need a powerful website, a
+              cutting-edge mobile app, advanced artificial intelligence systems,
+              or data-driven insights, we have the expertise to make it happen.
+              Our team blends creativity, technical know-how, and industry
+              experience to deliver solutions that make a real difference.
             </p>
             <Link to="/contact-us" className="primary-btn mt-2">
               Get Started
