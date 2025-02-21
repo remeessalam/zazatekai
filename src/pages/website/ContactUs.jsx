@@ -67,9 +67,9 @@ const ContactUs = () => {
           <div className="gradient-rounded-text-box">Contact Us</div>
           <h2 className="heading-2 mt-5">Get in Touch</h2>
           <p className="desc">
-            Let [you company name] be the catalyst for your digital
-            transformation. Together, we can build solutions that are as dynamic
-            as your vision, helping your business reach new heights.
+            Let ZAZATEK AI be the catalyst for your digital transformation.
+            Together, we can build solutions that are as dynamic as your vision,
+            helping your business reach new heights.
           </p>
           <Link
             to={`tel:${companyDetails.phone}`}

@@ -12,7 +12,7 @@
                 Enhancing Operations with Advanced Technology.
               </h2>
               <p className="desc">
-                Welcome to [you company name] —where technology meets innovation to
+                Welcome to ZAZATEK AI  —where technology meets innovation to
                 drive your success. We specialize in creating powerful digital
                 experiences and delivering solutions that simplify complex
                 challenges. With a wide range of services from mobile and web

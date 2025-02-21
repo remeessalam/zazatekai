@@ -80,8 +80,8 @@ const AboutUs = () => {
                   data-aos="fade-up"
                   className="text-lg text-start leading-relaxed text-gray-600"
                 >
-                  At [Your Company Name], we’re more than just a technology
-                  service provider – we’re your partner in driving digital
+                  At ZAZATEK AI , we’re more than just a technology service
+                  provider – we’re your partner in driving digital
                   transformation. Our team of passionate professionals is
                   dedicated to helping businesses like yours navigate the
                   ever-changing digital landscape. With expertise in web
@@ -226,7 +226,7 @@ const AboutUs = () => {
               data-aos="fade-up"
               className="heading-2 font-bold text-center mb-12 text-black"
             >
-              Why Choose [you company name]?
+              Why Choose ZAZATEK AI?
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               {whyChooseUsContent.map((feature, index) => (

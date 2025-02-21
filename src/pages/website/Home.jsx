@@ -39,12 +39,12 @@ const Home = () => {
             <h1 className="heading-1">
               Welcome to
               <br />
-              <span className="text-primary">[Your Company Name]</span> –
-              Shaping the Future with Innovative Technology Solutions
+              <span className="text-primary">ZAZATEK AI </span> – Shaping the
+              Future with Innovative Technology Solutions
             </h1>
             <p className="desc">
-              At [Your Company Name], we are dedicated to helping businesses
-              thrive in the digital era. Whether you need a powerful website, a
+              At ZAZATEK AI , we are dedicated to helping businesses thrive in
+              the digital era. Whether you need a powerful website, a
               cutting-edge mobile app, advanced artificial intelligence systems,
               or data-driven insights, we have the expertise to make it happen.
               Our team blends creativity, technical know-how, and industry
@@ -71,13 +71,13 @@ const Home = () => {
                 Enhancing Operations with Advanced AI Technology
               </h2>
               <p className="desc">
-                Welcome to [you company name] —where technology meets innovation
-                to drive your success. We specialize in creating powerful
-                digital experiences and delivering solutions that simplify
-                complex challenges. With a wide range of services from mobile
-                and web development to AI and data intelligence, we’re here to
-                help you unlock new potential and stay ahead in today’s
-                fast-paced digital landscape.
+                Welcome to ZAZATEK AI —where technology meets innovation to
+                drive your success. We specialize in creating powerful digital
+                experiences and delivering solutions that simplify complex
+                challenges. With a wide range of services from mobile and web
+                development to AI and data intelligence, we’re here to help you
+                unlock new potential and stay ahead in today’s fast-paced
+                digital landscape.
               </p>
             </div>
             <div className="flex gap-5 mt-4 justify-center lg:justify-start">
@@ -121,17 +121,16 @@ const Home = () => {
             Dependable AI-Powered IT Support Tailored for Your Business{" "}
           </h1>
           <p className="desc max-w-[50rem] mx-auto !text-black">
-            At [you company name], we understand that your website is more than
-            just an online presence—it's the cornerstone of your brand, a
-            powerful business tool, and often the first point of interaction
-            with potential customers. In today’s fast-paced world, first
-            impressions matter, and having a website that is not only
-            well-designed but also powered by advanced AI-driven features is
-            crucial for success. Our website development services go beyond the
-            basics, incorporating AI-powered optimization for performance,
-            personalized user experiences, and data-driven insights to drive
-            engagement, increase conversions, and accelerate your business
-            growth.
+            At ZAZATEK AI we understand that your website is more than just an
+            online presence—it's the cornerstone of your brand, a powerful
+            business tool, and often the first point of interaction with
+            potential customers. In today’s fast-paced world, first impressions
+            matter, and having a website that is not only well-designed but also
+            powered by advanced AI-driven features is crucial for success. Our
+            website development services go beyond the basics, incorporating
+            AI-powered optimization for performance, personalized user
+            experiences, and data-driven insights to drive engagement, increase
+            conversions, and accelerate your business growth.
           </p>
         </div>
       </section>

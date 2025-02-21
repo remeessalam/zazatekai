@@ -288,7 +288,7 @@ to meet your specific business needs.`,
     link: "/services/app-development",
     title: "App Development",
     desc: `Mobile apps are crucial for businesses aiming to reach and engage their audiences on the go.
-At [Your Company Name], we specialize in building mobile apps that offer a seamless, high-
+At  ZAZATEK AI , we specialize in building mobile apps that offer a seamless, high-
 performance experience on both iOS and Android platforms. From concept to deployment,
 we ensure that your app is aligned with your business goals and offers an exceptional user
 experience.`,
@@ -300,8 +300,7 @@ experience.`,
     img: <GiArtificialIntelligence className="w-6 h-6" />,
     link: "/services/ai-development",
     title: "Artificial Intelligence Development",
-    desc: `Artificial Intelligence (AI) is transforming the way businesses operate, and at [Your
-Company Name], we help you harness the power of AI to optimize processes, improve
+    desc: `Artificial Intelligence (AI) is transforming the way businesses operate, and at ZAZATEK AI, we help you harness the power of AI to optimize processes, improve
 decision-making, and enhance customer interactions. From predictive analytics to machine
 learning and automation, we build AI solutions tailored to your specific business needs.`,
     detailContent:
@@ -324,7 +323,7 @@ services empower you to make smarter business decisions and drive meaningful out
     link: "/services/blockchain-development",
     title: "Blockchain Development",
     desc: `Blockchain technology has the potential to revolutionize industries by enhancing
-transparency, security, and efficiency. At [Your Company Name], we help businesses
+transparency, security, and efficiency. At  ZAZATEK AI , we help businesses
 implement blockchain solutions that streamline operations, improve trust, and reduce risks,
 whether through smart contracts, cryptocurrencies, or secure data management.`,
     detailContent:
@@ -335,8 +334,7 @@ whether through smart contracts, cryptocurrencies, or secure data management.`,
     img: <FaPaintBrush className="w-6 h-6" />,
     link: "/services/ui-ux-design",
     title: "UI/UX Design",
-    desc: `A great user experience is key to the success of any digital product. At [Your Company
-Name], we focus on creating user-centric designs that not only look great but also provide
+    desc: `A great user experience is key to the success of any digital product. At ZAZATEK AI, we focus on creating user-centric designs that not only look great but also provide
 intuitive and seamless experiences. Our UI/UX design services aim to enhance usability and
 ensure that your users are engaged and satisfied at every touchpoint.`,
     detailContent:
@@ -394,7 +392,7 @@ export const missionVisionContent = [
   {
     img: <FaEye className="w-6 h-6" />,
     title: "Our Vision",
-    desc: "At [Your Company Name], we envision a world where businesses leverage technology to their advantage, staying ahead of the curve in an ever-evolving digital landscape. We aspire to be the go-to partner for companies looking to embrace innovation and transform their operations, whether through custom software solutions, AI-powered tools, or cloud-based services. We are committed to delivering lasting results that help businesses grow, adapt, and succeed. By continually exploring new possibilities and pushing the boundaries of technology, we ensure that our clients always have access to the latest and most effective solutions.",
+    desc: "At  ZAZATEK AI , we envision a world where businesses leverage technology to their advantage, staying ahead of the curve in an ever-evolving digital landscape. We aspire to be the go-to partner for companies looking to embrace innovation and transform their operations, whether through custom software solutions, AI-powered tools, or cloud-based services. We are committed to delivering lasting results that help businesses grow, adapt, and succeed. By continually exploring new possibilities and pushing the boundaries of technology, we ensure that our clients always have access to the latest and most effective solutions.",
   },
 ];
 
@@ -404,21 +402,21 @@ export const reviews = [
     profileImg: profileImg2,
     name: "Michael D.",
     role: "CEO at TechSolutions",
-    desc: "“Working with [your company name] has been an absolute game-changer for our business. Their expertise in AI and automation helped streamline our workflows, saving us countless hours every week.”",
+    desc: "“Working with  ZAZATEK AI  has been an absolute game-changer for our business. Their expertise in AI and automation helped streamline our workflows, saving us countless hours every week.”",
   },
   {
     id: 2,
     profileImg: profileImg1,
     name: "Sophia L.",
     role: "Marketing Director at BrandBoost",
-    desc: "“The digital strategy crafted by [your company name] propelled our brand to new heights. Their insights and execution were top-notch, leading to significant engagement growth.”",
+    desc: "“The digital strategy crafted by  ZAZATEK AI  propelled our brand to new heights. Their insights and execution were top-notch, leading to significant engagement growth.”",
   },
   {
     id: 3,
     profileImg: profileImg2,
     name: "David R.",
     role: "CTO at CloudNet",
-    desc: "“The cloud infrastructure set up by [your company name] has been flawless. Their team ensured a smooth transition and provided excellent ongoing support.”",
+    desc: "“The cloud infrastructure set up by  ZAZATEK AI  has been flawless. Their team ensured a smooth transition and provided excellent ongoing support.”",
   },
   {
     id: 4,
@@ -432,7 +430,7 @@ export const reviews = [
     profileImg: profileImg2,
     name: "James P.",
     role: "Operations Manager at FinTrust",
-    desc: "“With the blockchain solutions from [your company name], we’ve enhanced the security and transparency of our financial transactions. The implementation was seamless.”",
+    desc: "“With the blockchain solutions from  ZAZATEK AI , we’ve enhanced the security and transparency of our financial transactions. The implementation was seamless.”",
   },
   {
     id: 6,
@@ -446,7 +444,7 @@ export const reviews = [
     profileImg: profileImg2,
     name: "Ryan T.",
     role: "Head of Development at InnovateSoft",
-    desc: "“From concept to execution, [your company name] delivered an exceptional custom software solution that has scaled effortlessly with our growing business.”",
+    desc: "“From concept to execution,  ZAZATEK AI  delivered an exceptional custom software solution that has scaled effortlessly with our growing business.”",
   },
   {
     id: 8,
@@ -460,7 +458,7 @@ export const reviews = [
     profileImg: profileImg2,
     name: "William B.",
     role: "IT Director at SecureNet",
-    desc: "“Cybersecurity was a major concern for us, but [your company name] provided robust security solutions that give us confidence in our infrastructure.”",
+    desc: "“Cybersecurity was a major concern for us, but  ZAZATEK AI  provided robust security solutions that give us confidence in our infrastructure.”",
   },
 ];
 
