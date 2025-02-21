@@ -25,13 +25,11 @@ import profileImg1 from "./assets/images/profileimg-1.jpg";
 import profileImg2 from "./assets/images/profileimg-2.jpg";
 import serviceswebdevelopment from "./assets/images/services/serviceswebdevelopment.jpg";
 import serviceaidevelopment from "./assets/images/services/serviceaidevelopment.jpg";
-import chatbotdevelopment from "./assets/images/services/chatbotdevelopment.jpg";
+import appdevelopment from "./assets/images/services/appdevelopment.jpg";
 import datadevelopment from "./assets/images/services/datadevelopment.jpg";
-import gamedevelopment from "./assets/images/services/gamedevelopment.jpg";
 import blockchaindevelopment from "./assets/images/services/blockchaindevelopment.jpg";
-import machinelearning from "./assets/images/services/machinelearning.jpg";
+import uiuxdevelopment from "./assets/images/services/uiuxdevelopment.jpg";
 import clouddevelopment from "./assets/images/services/clouddevelopment.jpg";
-import rpa from "./assets/images/services/rpa.jpg";
 import aboutone from "./assets/images/aboutone.jpg";
 import abouttwo from "./assets/images/abouttwo.jpg";
 import aboutthree from "./assets/images/aboutthree.jpg";
@@ -95,13 +93,11 @@ export {
   aboutUsGridImg5,
   serviceswebdevelopment,
   serviceaidevelopment,
-  chatbotdevelopment,
+  appdevelopment,
   datadevelopment,
-  gamedevelopment,
   blockchaindevelopment,
-  machinelearning,
+  uiuxdevelopment,
   clouddevelopment,
-  rpa,
   contactusbanner,
   aboutusintroone,
   aboutusintrotwo,
@@ -321,6 +317,18 @@ intuitive and seamless experiences. Our UI/UX design services aim to enhance usa
 ensure that your users are engaged and satisfied at every touchpoint.`,
     detailContent:
       "Our UI/UX Design Services Include:\n\n• User Research & Persona Development: We conduct in-depth research to understand your target audience’s needs, behaviors, and pain points, ensuring that the design speaks directly to them.\n• Wireframing & Prototyping: We create wireframes and interactive prototypes to visualize the user experience before development, ensuring alignment with your goals.\n• Responsive Design: Our designs are responsive, ensuring that your website or app provides an optimal experience across devices, whether on desktop, tablet, or mobile.\n• Interaction Design: We focus on creating smooth, intuitive interactions that enhance the user journey, making your digital products easy to use and navigate.\n• Usability Testing: We conduct thorough usability tests to ensure that your product is user-friendly and delivers a positive experience.",
+  },
+  {
+    id: 7,
+    img: <IoMdCloudDone className="w-6 h-6" />,
+    link: "/services/cloud-computing",
+    title: "Cloud Computing & Migration Services",
+    desc: `As businesses increasingly move to the cloud, we provide comprehensive cloud computing
+services designed to help you take full advantage of cloud technologies. Whether you’re
+migrating to the cloud, optimizing your cloud infrastructure, or developing cloud-native
+applications, we are here to ensure a smooth and successful transition.`,
+    detailContent:
+      "Our Cloud Services Include:\n\n• Cloud Migration: We guide you through a seamless migration to the cloud, ensuring minimal downtime and disruption to your operations.\n\n• Cloud Infrastructure Design & Management: We design and manage scalable, secure cloud infrastructure that supports your business goals and improves performance.\n\n• Cloud Application Development: We build cloud-native applications that are designed for scalability, flexibility, and performance, ensuring they meet your business needs.\n\n• DevOps & Continuous Integration (CI)/Continuous Deployment (CD): Our team implements DevOps best practices and CI/CD pipelines to automate your development process and improve efficiency.\n\n• Cloud Security & Compliance: We ensure that your cloud solutions are secure and comply with industry standards, safeguarding your data and maintaining privacy.",
   },
 ];
 

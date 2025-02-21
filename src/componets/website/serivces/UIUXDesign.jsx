@@ -1,5 +1,5 @@
 import React from "react";
-import { allServices, gamedevelopment } from "../../../constant";
+import { allServices, serviceswebdevelopment } from "../../../constant";
 import Testimonials from "../../common/Testimonials";
 
 const UIUXDesign = () => {
@@ -21,7 +21,7 @@ const UIUXDesign = () => {
     <div className="flex flex-col gap-10">
       <img
         data-aos="fade-up"
-        src={gamedevelopment}
+        src={serviceswebdevelopment}
         loading="lazy"
         className="h-[25rem] object-cover rounded-3xl object-center"
         alt="web development"

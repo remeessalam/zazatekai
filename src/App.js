@@ -22,6 +22,7 @@ import AppDevelopment from "./componets/website/serivces/AppDevelopment.jsx";
 import AIDevelopment from "./componets/website/serivces/AIDevelopment.jsx";
 import DataScienceDevelopment from "./componets/website/serivces/DataScienceDevelopment.jsx";
 import UIUXDesign from "./componets/website/serivces/UIUXDesign.jsx";
+import CloudDevelopment from "./componets/website/serivces/CloudDevelopment.jsx";
 
 AOS.init({
   once: true,
@@ -73,6 +74,7 @@ export default function App() {
               element={<BlockchainDevelopment />}
             />
             <Route path="ui-ux-design" element={<UIUXDesign />} />
+            <Route path="cloud-computing" element={<CloudDevelopment />} />
           </Route>
 
           {/* Landing Pages */}

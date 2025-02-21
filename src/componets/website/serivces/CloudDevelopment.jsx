@@ -1,9 +1,8 @@
-import React from "react";
-import { allServices, datadevelopment } from "../../../constant";
+import { allServices, clouddevelopment } from "../../../constant";
 import Testimonials from "../../common/Testimonials";
 
-const DataScienceDevelopment = () => {
-  const details = allServices[3];
+const CloudDevelopment = () => {
+  const details = allServices[6];
   const splitIntoPoints = (text) => {
     return text
       .split("\n• ")
@@ -16,12 +15,11 @@ const DataScienceDevelopment = () => {
         };
       });
   };
-
   return (
     <div className="flex flex-col gap-10">
       <img
         data-aos="fade-up"
-        src={datadevelopment}
+        src={clouddevelopment}
         loading="lazy"
         className="h-[25rem] object-cover rounded-3xl object-center"
         alt="web development"
@@ -31,7 +29,6 @@ const DataScienceDevelopment = () => {
         <h2 data-aos="fade-up" className="text-3xl font-semibold">
           {details.title}
         </h2>
-
         <p>{details.desc}</p>
 
         {/* Service Description */}
@@ -53,9 +50,9 @@ const DataScienceDevelopment = () => {
         </div>
 
         {/* Points List */}
-        {/* <div data-aos="fade-up" className="pt-4">
-          <h3 className="text-xl font-semibold">{details.points.heading}</h3>
-          <ul className="w-full flex flex-wrap justify-between gap-3  sm:pl-6 mt-5">
+        <div data-aos="fade-up" className="pt-4">
+          {/* <h3 className="text-xl font-semibold">{details.title}</h3> */}
+          {/* <ul className="w-full flex flex-wrap justify-between gap-3  sm:pl-6 mt-5">
             {details.points.list.map((item, index) => (
               <li
                 key={index}
@@ -65,12 +62,12 @@ const DataScienceDevelopment = () => {
                 <p> {item.desc}</p>
               </li>
             ))}
-          </ul>
-        </div> */}
-        <Testimonials />
+          </ul> */}
+          <Testimonials />
+        </div>
       </div>
     </div>
   );
 };
 
-export default DataScienceDevelopment;
+export default CloudDevelopment;
