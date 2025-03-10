@@ -107,7 +107,7 @@ const ContactUs = () => {
               <p className="desc">{companyDetails.email}</p>
             </div>
           </Link>
-          <div className="flex items-start gap-3 w-fit mt-5">
+          {/* <div className="flex items-start gap-3 w-fit mt-5">
             <div className="min-w-[2.5rem] w-[2.5rem] h-[2.5rem] rounded-full bg-primary flex justify-center items-center">
               <FaLocationDot className="text-2xl scale-x-[-1]" />
             </div>
@@ -115,7 +115,7 @@ const ContactUs = () => {
               <p className="font-medium">Location</p>
               <p className="desc max-w-[20rem]">{companyDetails.address}</p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div
           data-aos="fade-left"

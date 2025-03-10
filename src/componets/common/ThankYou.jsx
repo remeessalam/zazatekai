@@ -72,12 +72,12 @@ const Thankyou = () => {
                     {companyDetails.phone2}
                   </Link>
                 </div>
-                <div className="flex flex-col mt-2">
+                {/* <div className="flex flex-col mt-2">
                   <h6 className="text-[.9rem] mb-1">Office Address</h6>
                   <p className="text-white/70 desc text-sm max-w-[15rem]">
                     {companyDetails.address}
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

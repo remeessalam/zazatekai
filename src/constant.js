@@ -132,7 +132,7 @@ export const companyDetails = {
 
   whatsapplink:
     "https://api.whatsapp.com/send/?phone=9884215262&text&type=phone_number&app_absent=0",
-  email: "abc@xya.com",
+  email: "admin@zazatek.com",
   address: "company address",
   // "No. 82 A/ 8, Poombukar Nagar, Elango Street, Wimco Nagar, Chennai 600 057",
 };
