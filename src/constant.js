@@ -135,6 +135,10 @@ export const companyDetails = {
   email: "admin@zazatek.com",
   address: "company address",
   // "No. 82 A/ 8, Poombukar Nagar, Elango Street, Wimco Nagar, Chennai 600 057",
+  linkedin: "https://www.linkedin.com/in/zazatek-ai-013649354/",
+  instagram: "https://www.instagram.com/zazatekai/",
+  facebook: "https://www.facebook.com/profile.php?id=61573789262539",
+  youtube: "https://www.youtube.com/@ZAZATEKAI",
 };
 
 // website routes
